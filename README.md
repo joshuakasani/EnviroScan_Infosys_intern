@@ -30,31 +30,34 @@ The model classifies pollution events into four primary categories:
 -   **Environment:** Python, Jupyter Notebooks
 
 ## 📂 Project Structure
+
+```text
 EnviroScan_Project/
-│
-├── app.py # Main Streamlit application file
-├── data/
-│ ├── cities.csv # List of target cities for data collection
-│ ├── consolidated_enviro_data.csv # Raw, combined data from all sources
-│ ├── app_daily_data.csv # Pre-processed, aggregated data for the Streamlit app
-│ ├── train.csv, test.csv, validation.csv # Labeled & split datasets for ML
-│ └── ...
-├── models/
-│ └── pollution_source_model.joblib # The final trained XGBoost model
-├── notebooks/
-│ ├── 2_Data_Cleaning_and_Feature_Engineering.ipynb
-│ ├── 3_Source_Labeling_and_Simulation.ipynb
-│ ├── 4_Model_Training_and_Prediction.ipynb
-│ └── 5_Geospatial_Visualization.ipynb
-├── outputs/
-│ └── *.html # Saved interactive maps
-├── scripts/
-│ ├── config.py # Configuration for data collection
-│ ├── data_collector.py # Script to fetch all raw data
-│ ├── preprocess_for_app.py # Script to prepare data for the Streamlit app
-│ └── ...
-├── requirements.txt # Python dependencies
-└── README.md # This file
+|
+|— app.py # Main Streamlit application file
+|— data/
+|   |— cities.csv # List of target cities for data collection
+|   |— consolidated_enviro_data.csv # Raw, combined data from all sources
+|   |— app_daily_data.csv # Pre-processed, aggregated data for the Streamlit app
+|   |— train.csv, test.csv, validation.csv # Labeled & split datasets for ML
+|   |— ...
+|— models/
+|   |— pollution_source_model.joblib # The final trained XGBoost model
+|— notebooks/
+|   |— 2_Data_Cleaning_and_Feature_Engineering.ipynb
+|   |— 3_Source_Labeling_and_Simulation.ipynb
+|   |— 4_Model_Training_and_Prediction.ipynb
+|   |— 5_Geospatial_Visualization.ipynb
+|— outputs/
+|   |— *.html # Saved interactive maps
+|— scripts/
+|   |— config.py # Configuration for data collection
+|   |— data_collector.py # Script to fetch all raw data
+|   |— preprocess_for_app.py # Script to prepare data for the Streamlit app
+|   |— ...
+|— requirements.txt # Python dependencies
+|— README.md # This file
+```
 
 
 ## 🚀 Setup and Execution Guide
