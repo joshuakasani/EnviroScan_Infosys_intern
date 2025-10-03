@@ -30,38 +30,6 @@ The model classifies pollution events into four primary categories:
 -   **Environment:** Python, Jupyter Notebooks
 
 ## 📂 Project Structure
-# EnviroScan: AI-Powered Pollution Source Identifier
-
- 
-*(Note: Replace the URL above with a screen recording/GIF of your final Streamlit app)*
-
-## 📖 Overview
-
-EnviroScan is an end-to-end data science project that identifies the likely sources of air pollution in major Indian cities using machine learning. The project culminates in an interactive Streamlit dashboard that allows users to explore historical pollution data and view AI-powered predictions on a geospatial map.
-
-The model classifies pollution events into four primary categories:
--   🚗 **Vehicular:** Typically associated with high NO₂/CO levels near major roads.
--   🏭 **Industrial:** Characterized by high SO₂/PM10 concentrations near industrial zones.
--   🔥 **Agricultural Burning:** Linked to high PM2.5 levels near farmland, especially in dry conditions.
--   🌳 **Background/Mixed:** General atmospheric pollution without a single dominant source.
-
-## ✨ Features
-
--   **Automated Data Pipeline:** Scripts to automatically collect historical air quality, weather, and geospatial data from multiple APIs.
--   **Simulated Ground Truth:** A robust data labeling process using heuristic rules and SMOTE to create a balanced training dataset.
--   **Machine Learning Model:** An XGBoost classifier trained and tuned to predict pollution sources with high accuracy.
--   **Interactive Dashboard:** A user-friendly web application built with Streamlit for data exploration and visualization.
--   **Geospatial Analysis:** An interactive Folium map displaying predicted pollution sources and pollutant concentration heatmaps.
--   **Data Visualization:** Dynamic charts from Plotly showing pollution trends and source distributions.
-
-## 🛠️ Tech Stack
-
--   **Data Science & ML:** Pandas, NumPy, Scikit-learn, XGBoost, Imbalanced-learn
--   **Data Collection:** OpenWeatherMap API, OSMnx (OpenStreetMap)
--   **Web App & Visualization:** Streamlit, Plotly, Folium
--   **Environment:** Python, Jupyter Notebooks
-
-## 📂 Project Structure
 EnviroScan_Project/
 │
 ├── app.py # Main Streamlit application file
