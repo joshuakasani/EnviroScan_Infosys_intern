@@ -1,7 +1,12 @@
+streamlit
 pandas
+numpy
 requests
 osmnx
 joblib
 folium
+streamlit-folium
+scikit-learn
+plotly
 geopandas
 openaq
