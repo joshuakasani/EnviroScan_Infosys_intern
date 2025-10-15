@@ -61,11 +61,10 @@ EnviroScan_Project/
 
 ## OutPut Demo Images
 
-![Dashboard Images](demoimgs/Screenshot 2025-10-15 225208.png)
+![Dashboard Images](demoimgs/Screenshot%202025-10-15%20225208.png)
+![Dashboard Images](demoimgs/Screenshot%202025-10-15%20225252.png)
+![Dashboard Images](demoimgs/Screenshot%202025-10-15%20225342.png)
 
-![Dashboard Images](demoimgs/Screenshot 2025-10-15 225252.png)
-
-![Dashboard Images](demoimgs/Screenshot 2025-10-15 225342.png)
 
 
 
